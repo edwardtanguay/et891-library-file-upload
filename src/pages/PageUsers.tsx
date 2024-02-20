@@ -17,7 +17,7 @@ export const PageUsers = () => {
 						})}
 					</section>
 				</>
-			) : (<p>no access</p>)}
+			) : (<p></p>)}
 		</>
 	);
 };

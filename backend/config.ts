@@ -31,3 +31,7 @@ export const backendUrl = (): string => {
 export const sessionSecret = (): string => {
 	return String(process.env.SESSION_SECRET);
 };
+
+export const jwtLifeTimeSeconds = (): number => {
+	return 60;
+}
